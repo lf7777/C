@@ -1,0 +1,22 @@
+    递归
+
+1.递归指的是在函数的定义中使用函数自身的方法
+　　语法格式 :
+
+void recursion()
+{
+    statements;
+    ... ... ...
+    recursion(); /*函数调用自身*/
+    ... ... ...
+}
+
+int main()
+{
+    recuision();
+}
+
+
+
+
+

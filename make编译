@@ -1,0 +1,18 @@
+make 工具可以很清晰和很快捷的整理源文件和整理,其内部也是使用的gcc.
+
+1.查看gcc里面有没有装make 
+make -v      安装: apt-get install make
+
+2.#代表注释，make会忽略
+步骤:
+1.vim Makefile 
+# this is a make file
+
+hello.out:max.o min.o hello.c  hello.out文件的生成需要
+	gcc max.o min.o hello.c  怎么样来编译
+max.o:max.c
+	gcc -c max.c
+min.o:min.c
+	gcc -c min.c
+
+        

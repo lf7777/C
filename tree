@@ -1,0 +1,7 @@
+1.sudo apt-get install tree
+
+2.tree -L 1     显示当前下
+          2     显示当前下2级
+          3     显示当前下3级
+
+tree -L 2    >> 文件名  重定向

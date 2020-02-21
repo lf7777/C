@@ -1,0 +1,50 @@
+循环嵌套 :
+越内层的越先输出
+外层循环控制列数，内层的控制内容，一轮循环控制一行的内容，结束后再控制下一行的内容。
+但是一个例外:内容多少从小到大的,i=0,k="";k+="#";
+console.log(k)
+
+1.if else
+
+    if(){
+
+}else if(){
+
+}else if(){
+
+}else{
+
+}
+
+以此寻找符合的条件，如果都不符合，执行最后 else 语句内容 
+
+2.
+
+int sex=5;
+
+switch(sex){
+    case 1:
+    printf();
+	break;
+    case 2:
+    printf();
+	break;
+    default:
+    printf();
+	break
+}
+
+switch : 选择，开关
+如果都不符合，执行 defaule .
+
+3.
+int i=1;
+while(i<100){
+    printf();
+	i++;
+}
+满足条件，执行循环，不满足，跳出循环体
+
+do{}...while{}
+先进循环，再判断条件，符合继续，不符合，跳出循环体
+
